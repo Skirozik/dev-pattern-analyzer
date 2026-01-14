@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "commits_analyzed": 3,
+    "total_files_changed": 4,
+    "total_lines_added": 3,
+    "total_lines_removed": 0,
+    "avg_files_changed": 1.33,
+    "avg_lines_added": 1.0,
+    "avg_lines_removed": 0.0,
+    "fix_like_commits": 1,
+    "fix_ratio_percent": 33.3
+  },
+  "top_files_by_churn": [
+    {
+      "file": "README.md",
+      "commits_touched": 3
+    },
+    {
+      "file": "src/main.py",
+      "commits_touched": 1
+    }
+  ],
+  "top_files_in_fixes": [
+    {
+      "file": "README.md",
+      "fix_commits": 1
+    }
+  ],
+  "top_risk_files": [
+    {
+      "file": "README.md",
+      "churn": 3,
+      "fixes": 1,
+      "risk": 6
+    },
+    {
+      "file": "src/main.py",
+      "churn": 1,
+      "fixes": 0,
+      "risk": 1
+    }
+  ],
+  "time_patterns": {
+    "top_hours": [
+      [
+        20,
+        2
+      ],
+      [
+        21,
+        1
+      ]
+    ],
+    "top_days": [
+      [
+        1,
+        3
+      ]
+    ]
+  }
+}
